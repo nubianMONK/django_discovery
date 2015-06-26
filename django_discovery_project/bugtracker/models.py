@@ -18,13 +18,9 @@ class Issue(models.Model):
 class Comment(models.Model):
 	issue = models.ForeignKey(Issue)
 	comment_made = models.TextField(blank=True)
-	comment_by_user = models.ForeignKey(User, unique=True)
+	user = models.ForeignKey(User)
 
 	def __unicode__(self):
-		return unicode(self.comment_by_user)
+		return unicode(self.user)
 	
-#class CommentInline(admin.TabularInline):
-#	model = Comment
 
-#class IssueAdmin(admin.ModelAdmin):
-#	inlines = [CommentInline,]
