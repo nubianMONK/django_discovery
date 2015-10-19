@@ -15,6 +15,7 @@ chardet==2.2.1
 cloud-init==0.7.6
 colorama==0.3.1
 configobj==4.7.2
+gunicorn==19.3.0
 html5lib==0.999
 httplib2==0.9
 idna==0.9
@@ -26,6 +27,7 @@ lazr.restfulclient==0.13.3
 lazr.uri==1.0.3
 oauth==1.0.1
 prettytable==0.7.2
+psycopg2==2.6.1
 pyOpenSSL==0.13.1
 pyasn1==0.1.7
 pyasn1-modules==0.0.5
