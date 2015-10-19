@@ -39,11 +39,9 @@ SECRET_KEY = 'w-!70t$ft=89k+%(az&bu4!3&(c*zegst@c@i1u^-06+f@&$rn'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-<<<<<<< HEAD
+
 ALLOWED_HOSTS = ['*']
-=======
-ALLOWED_HOSTS = []
->>>>>>> a81d2561e50b948f3f157a1a2b57f98418165ec1
+
 
 
 # Application definition
@@ -100,7 +98,7 @@ WSGI_APPLICATION = 'django_discovery_project.wsgi.application'
 
 DATABASES = {
     'default': {
-<<<<<<< HEAD
+
        # 'ENGINE': 'django.db.backends.sqlite3',
        # 'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
         'ENGINE' : 'django.db.backends.postgresql_psycopg2',
@@ -110,10 +108,7 @@ DATABASES = {
         'PASSWORD' : 'samuel11',
         'HOST' : 'localhost',
         'PORT' : '',
-=======
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
->>>>>>> a81d2561e50b948f3f157a1a2b57f98418165ec1
+
     }
 }
 
@@ -134,24 +129,11 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.8/howto/static-files/
-<<<<<<< HEAD
 STATIC_ROOT = os.path.join(BASE_DIR, "static/")
 STATIC_URL = '/static/'
-
-
-
-
-
-
-
-=======
-
-STATIC_URL = '/static/'
-STATIC_PATH = os.path.join(BASE_DIR,'static')
-
 
 STATICFILES_DIRS = ( STATIC_PATH,)
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
->>>>>>> a81d2561e50b948f3f157a1a2b57f98418165ec1
+
