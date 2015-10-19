@@ -1,0 +1,4 @@
+*.pyc
+
+/django_discovery_project/django_discovery_project/settings.py.*
+/django_discovery_project/django_discovery_project_env
